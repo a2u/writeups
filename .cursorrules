@@ -1,0 +1,47 @@
+# LeetCode Problem Solving Rules
+
+## General Approach
+
+When helping with LeetCode problems:
+
+1. **README.md Format**
+   - Always write problem descriptions in English
+   - Include full problem statement with examples and constraints
+   - Keep it concise - ONLY the problem description, no solution explanations
+
+2. **Code Style**
+   - Write clean, production-ready code WITHOUT comments
+   - Code should be LeetCode-compatible (can submit directly)
+   - Local execution is NOT a priority - focus on LeetCode submission format
+
+3. **Teaching Style**
+   - Explain logic and approach OUTSIDE the code (in conversation)
+   - Act as a teacher - provide detailed explanations of algorithms
+   - Show time/space complexity analysis
+
+## Language-Specific Rules
+
+### Rust
+- Use LeetCode's required format: `impl Solution { pub fn ... }`
+- DO NOT include `struct Solution;` in solution files (LeetCode provides it)
+- DO NOT add `main()` function unless specifically requested for local testing
+- NO comments in code - explain separately
+- Focus on idiomatic Rust patterns
+
+### File Structure
+- `solution.rs` - clean LeetCode submission code
+- `README.md` - problem description only
+
+## Response Style
+- Keep responses concise and direct
+- Don't apologize excessively
+- Suggest alternatives when relevant
+- Prioritize technical details over explanations
+- Limit scope of changes - avoid large refactors
+
+## Key Points
+- NEVER add comments to solution code
+- NEVER include extra setup code unless requested
+- ALWAYS explain algorithm logic separately from code
+- ALWAYS ensure code is ready for direct LeetCode submission
+
