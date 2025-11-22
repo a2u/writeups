@@ -27,6 +27,7 @@ When helping with LeetCode problems:
 - DO NOT add `main()` function unless specifically requested for local testing
 - NO comments in code - explain separately
 - Focus on idiomatic Rust patterns
+- ALWAYS run `rustfmt` on solution files before finishing
 
 ### File Structure
 - `solution.rs` - clean LeetCode submission code

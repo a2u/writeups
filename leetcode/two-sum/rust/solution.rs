@@ -7,7 +7,7 @@ impl Solution {
             let complement = target - num;
             if let Some(&index) = map.get(&complement) {
                 return vec![index as i32, i as i32];
-            }   
+            }
             map.insert(num, i);
         }
         vec![]
