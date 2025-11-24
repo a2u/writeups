@@ -32,6 +32,7 @@ When helping with LeetCode problems:
 ### File Structure
 - `solution.rs` - clean LeetCode submission code
 - `README.md` - problem description only
+- `writeup.md` - step-by-step solution breakdown with line-by-line code explanation
 
 ## Response Style
 - Keep responses concise and direct
